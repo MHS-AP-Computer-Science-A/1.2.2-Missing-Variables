@@ -40,7 +40,7 @@ public class CoffeeShop {
 		total = total * TAXRATE;
 
 		// Display the order
-		System.out.println("Order for " + orderName);
+		System.out.println("\nOrder for " + orderName);
 		System.out.println(numItems + " items");
 		System.out.println("Amount due: $" + total);
 
