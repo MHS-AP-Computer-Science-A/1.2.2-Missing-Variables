@@ -24,13 +24,13 @@ public class CoffeeShop {
 			itemName = input.next();
 			if (itemName.equals("Coffee")) {
 				total = total + 2.50;
-				numItems++;
+				numItems = numItems + 1;
 			} else if (itemName.equals("Latte")) {
 				total = total + 5.49;
-				numItems++;
+				numItems = numItems + 1;
 			} else if (itemName.equals("Smoothie")) {
 				total = total + 4.25;
-				numItems++;
+				numItems = numItems + 1;
 			} else {
 				orderFinished = true;
 			}
